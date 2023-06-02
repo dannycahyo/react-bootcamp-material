@@ -17,11 +17,13 @@ function Greeting({ subject, greeting }) {
   );
 }
 
-const element = (
-  <div>
-    <UserInfo userName="Danny" />
-    <Greeting greeting="Yohoho" subject="HIMTI UNESA" />
-  </div>
-);
+const App = () => {
+  return (
+    <div>
+      <UserInfo userName="Danny" />
+      <Greeting greeting="Yohoho" subject="HIMTI UNESA" />
+    </div>
+  );
+};
 
-ReactDOM.render(element, rootElement);
+ReactDOM.render(<App />, rootElement);
