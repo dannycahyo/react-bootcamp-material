@@ -136,7 +136,43 @@ The question is what makes React so special and so popular?
 
 ---
 
-# Study Case
+# Exercise Time
+
+![User_Experience](https://static.boredpanda.com/blog/wp-content/uploads/2018/08/5b68350140854.png)
+
+---
+
+# Exercise: Creating Basic Product Page
+
+- Add a few elements, such as headings, input, and list.
+- Use vanilla JavaScript to make the UI.
+  - Get the root element
+  - Create the element document.createElement
+  - Append the element to the root element
+
+---
+
+# Exercise: Creating Basic Product Page
+
+- Add a few elements, such as headings, input, and list.
+- Use React API to make the UI.
+  - Get the root element
+  - Create the element with React.createElement
+  - Render the element with React DOM
+
+---
+
+# Exercise: Creating Basic Product Page
+
+- Add a few elements, such as headings, input, and list.
+- Use JSX to make the UI.
+  - Get the root element
+  - Create the element with HTML syntax
+  - Render the element with React DOM
+
+---
+
+# Component Study Case
 
 1. ### Visit Youtube Website
 2. ### Let's see and analyze the similar peace of the UI
@@ -182,39 +218,66 @@ The question is what makes React so special and so popular?
 
 ---
 
-# Exercise Time
+# Let's Back Into The Button Counter
 
-![User_Experience](https://static.boredpanda.com/blog/wp-content/uploads/2018/08/5b68350140854.png)
+## Question
 
----
-
-# Exercise: Creating Basic Product Page
-
-- Add a few elements, such as headings, input, and list.
-- Use vanilla JavaScript to make the UI.
-  - Get the root element
-  - Create the element document.createElement
-  - Append the element to the root element
+- What happend if we want to render the counter instead of just pop up on the alert?
 
 ---
 
-# Exercise: Creating Basic Product Page
+# useState Hooks
 
-- Add a few elements, such as headings, input, and list.
-- Use React API to make the UI.
-  - Get the root element
-  - Create the element with React.createElement
-  - Render the element with React DOM
+#### Let's just simplify the definition of state in React
+
+In React, `state` refers to an object that holds and manages data within a component. It represents the current condition or values that can change over time. By using state, React components can keep track of and update their data, leading to dynamic and interactive user interfaces.
 
 ---
 
-# Exercise: Creating Basic Product Page
+# Let's Add Additional Features To The Button Counter
 
-- Add a few elements, such as headings, input, and list.
-- Use JSX to make the UI.
-  - Get the root element
-  - Create the element with HTML syntax
-  - Render the element with React DOM
+## Question
+
+- How do we add the counter state into the local storage?
+
+---
+
+# useEffect Hooks
+
+`useEffect` is a React Hook that lets you synchronize a component with an external system. Effects let you run some code after rendering so that you can synchronize your component with some system outside of React.
+
+---
+
+# Final Project
+
+### Making A Product Page
+
+Acceptance Criteria
+
+- As a user, I want to be able to see the list of products
+- As a user, I want to be able to search for products
+- As a user, I want to able to clear my products search
+- As a user, I want to be able to know my last keyword product search
+
+---
+
+# Final Project Step By Step
+
+1. Fetch product data from the API, you can use https://dummyjson.com/products for the API.
+2. Display a list of products
+3. Implement a search functionality
+4. Add a button to clear search results
+5. Keep the user search keywords to persistent storage
+
+---
+
+# Final Project Hints
+
+- Use `useState` and `useEffect` hooks for managing state and side effects
+- Fetch the product data inside a `useEffect` hook
+- Implement an event handler for the search input and the clear button
+- Save the state into local storage using `useEffect` hooks
+- Use a `ProductCard` component to display each product in a card-like layout
 
 ---
 
