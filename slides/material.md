@@ -21,6 +21,19 @@ Place: Lab. RPL, Gedung A10 Teknik Informatika UNESA
 
 ---
 
+# Topics
+
+- Single Page Application Introduction
+- DOM Manipulation
+- JSX
+- Component
+- Styling
+- useState
+- useEffect
+- Final Project
+
+---
+
 # Let's Get Started
 
 ![Funny_Excited](https://i.pinimg.com/originals/c4/c8/c2/c4c8c2d42aaa8a25ddf98c9b078afd3e.jpg) | ![Funny_Excited_2](https://live.staticflickr.com/4644/25095800438_4fc8a6160f_w.jpg)
@@ -51,9 +64,17 @@ You will only see one HTML file which is the index.html file. The rest of the HT
 
 ---
 
-# The Trend Has Changed from MPA to SPA to Prioritize User Experience
+# The Trend Has Changed from MPA to SPA
 
 ![User_Experience](https://static.boredpanda.com/blog/wp-content/uploads/2018/08/5b68350140854.png)
+
+---
+
+# Single Page Applications
+
+- Enhanced User Experience
+- Framework and Tooling Support
+- API-Driven Development: SPAs are often built to consume APIs
 
 ---
 
@@ -112,6 +133,88 @@ The question is what makes React so special and so popular?
 # Write HTML inside JavaScript
 
 ![What_Kind_Of_Sorcery_Is_This](https://tommccallum.com/wp-content/uploads/2020/11/sorcery.jpg)
+
+---
+
+# Study Case
+
+1. ### Visit Youtube Website
+2. ### Let's see and analyze the similar peace of the UI
+
+---
+
+# Let's Make Our Own Component
+
+![DEMO_TIME](https://media.makeameme.org/created/demo-time-5b1ab8.jpg)
+
+---
+
+# The Importance of Components in React
+
+- Components are the building blocks of a React application.
+- Promote a modular architecture by breaking the UI into reusable, isolated pieces.
+
+---
+
+## Why use components?
+
+1. Reusability
+
+   - Write once, use multiple times.
+   - Reduces code redundancy and improves efficiency.
+
+2. Maintainability
+   - Smaller, more focused code.
+   - Easier to understand, debug, and update.
+
+---
+
+## Why use components?
+
+3. Scalability
+
+   - Organized and structured codebase.
+   - Easier to add or modify features.
+
+4. Separation of Concerns
+   - Each component handles a specific task or functionality.
+   - Simplifies code collaboration and reduces conflicts.
+
+---
+
+# Exercise Time
+
+![User_Experience](https://static.boredpanda.com/blog/wp-content/uploads/2018/08/5b68350140854.png)
+
+---
+
+# Exercise: Creating Basic Product Page
+
+- Add a few elements, such as headings, input, and list.
+- Use vanilla JavaScript to make the UI.
+  - Get the root element
+  - Create the element document.createElement
+  - Append the element to the root element
+
+---
+
+# Exercise: Creating Basic Product Page
+
+- Add a few elements, such as headings, input, and list.
+- Use React API to make the UI.
+  - Get the root element
+  - Create the element with React.createElement
+  - Render the element with React DOM
+
+---
+
+# Exercise: Creating Basic Product Page
+
+- Add a few elements, such as headings, input, and list.
+- Use JSX to make the UI.
+  - Get the root element
+  - Create the element with HTML syntax
+  - Render the element with React DOM
 
 ---
 
