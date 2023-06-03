@@ -27,7 +27,6 @@ Place: Lab. RPL, Gedung A10 Teknik Informatika UNESA
 - DOM Manipulation
 - JSX
 - Component
-- Styling
 - useState
 - useEffect
 - Final Project
